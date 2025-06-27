@@ -11,7 +11,7 @@ namespace KenRampage.Addons.SOAP.Listeners
     [AddComponentMenu("Ken Rampage/Addons/SOAP/Listeners/Variable Listener Vector3")]
     public class VariableListenerVector3 : MonoBehaviour
     {
-        [SerializeField] private ScriptableVariable<Vector3> _scriptableVariable;
+        [SerializeField] private Vector3Variable _scriptableVariable;
         [SerializeField] private bool _processOnEnable;
 
         public UnityEvent<Vector3> OnValueChangedEvent;

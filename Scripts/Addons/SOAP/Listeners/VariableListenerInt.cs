@@ -12,7 +12,7 @@ namespace KenRampage.Addons.SOAP.Listeners
     [AddComponentMenu("Ken Rampage/Addons/SOAP/Listeners/Variable Listener Int")]
     public class VariableListenerInt : MonoBehaviour
     {
-        [SerializeField] private ScriptableVariable<int> _scriptableVariable;
+        [SerializeField] private IntVariable _scriptableVariable;
         [SerializeField] private bool _processOnEnable;
 
         public UnityEvent<int> Event;

@@ -11,7 +11,7 @@ namespace KenRampage.Addons.SOAP.Listeners
     [AddComponentMenu("Ken Rampage/Addons/SOAP/Listeners/Variable Listener Bool")]
     public class VariableListenerBool : MonoBehaviour
     {
-        [SerializeField] private ScriptableVariable<bool> _scriptableVariable;
+        [SerializeField] private BoolVariable _scriptableVariable;
         [SerializeField] private bool _processOnEnable;
 
         public UnityEvent<bool> Event;

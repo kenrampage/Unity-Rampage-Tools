@@ -13,7 +13,7 @@ namespace KenRampage.Addons.SOAP.Listeners
     [AddComponentMenu("Ken Rampage/Addons/SOAP/Listeners/Variable Value Listener String")]
     public class VariableValueListenerString : MonoBehaviour
     {
-        [SerializeField] private ScriptableVariable<string> _scriptableVariable;
+        [SerializeField] private StringVariable _scriptableVariable;
         [SerializeField] private bool _processOnEnable;
         [SerializeField] private List<EventValueResponseString> _valueResponses;
 
